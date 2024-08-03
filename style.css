@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.background-container {
+    width : 1000%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://i.makeagif.com/media/7-14-2022/S7mxd2.gif') no-repeat center center/cover;
+    text-align: left;
+    color: white;
+}
+
+.container {
+    text-align: center;
+}
+
+.stopwatch-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid #059212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px auto;
+}
+
+.stopwatch {
+    font-size: 2.0rem;
+    text-align: center;
+}
+
+.buttons button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button#start {
+    background-color: #FFB200;
+    color: white;
+}
+
+button#stop {
+    background-color: #f44336;
+    color: white;
+}
+
+button#reset {
+    background-color: #008CBA;
+    color: white;
+}
